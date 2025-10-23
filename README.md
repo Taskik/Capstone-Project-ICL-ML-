@@ -7,7 +7,7 @@ This capstone project replicates a **real-world Bayesian optimisation challenge*
 Each function simulates a realistic optimisation scenario from **radiation detection** to **hyperparameter tuning** where evaluations are costly and information is limited.
 The objective is to design, implement, and iteratively refine strategies that efficiently explore and exploit unknown functions to achieve near-optimal results.
 
-This project demonstrates practical skills in:
+This project demonstrates:
 - Experimental design and intelligent search strategies  
 - Bayesian optimisation and surrogate modelling  
 - Exploration–exploitation trade-offs  
