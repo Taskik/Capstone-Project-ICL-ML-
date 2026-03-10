@@ -78,3 +78,25 @@ All functions are **maximisation/minimization tasks**, and evaluations are limit
 - Early queries prioritize **exploration** to map the function space.Used mostly **UCB/LCB** while tuning their exploration hyperparameter **nu** (higher is more aggressive exploration)  
 - Later queries will shift toward **exploitation**, focusing on promising regions suggested by the surrogate model.  
 - Employed an acquisition function to balance the two: sometimes more exploratory (UCB/LCB) , sometimes more exploitative (PI), depending on confidence in the surrogate model and the structure of the underlying problem(Sometimes a suggested point fell outside of the physically possible bound region)
+
+## Installation
+
+To run this project locally, follow these steps:
+
+1. **Clone the repository**:
+
+```bash
+git clone https://github.com/Taskik/Capstone-Project-ICL-ML-
+```
+2. **Navigate into the project folder**:
+```bash
+cd Capstone-Project-ICL-ML-
+```
+3. **Install the required packages**:
+```bash
+pip install -r requirements.txt
+```
+4. **Launch the Jupyter notebook**:
+```bash
+jupyter notebook
+```
